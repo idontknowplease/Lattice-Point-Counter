@@ -64,7 +64,7 @@ class CartesianGraphApp:
             for j in range(-100, 500, 20):
                 lattice_point = self.draw_lattice_point(i, j)
                 self.lattice_points.add(lattice_point)
-                if math.sqrt((i - x) ** 2 + (j - y) ** 2) <= radius:
+                if math.sqrt((i - x) ** 2 + (j - y) ** 2) < radius:
                     num_points += 1
 
         self.update_label(num_points)
