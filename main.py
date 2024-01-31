@@ -1,5 +1,4 @@
 # Using Tkinter as a way to count the interior lattice points of a circle of any radius and position
-# This program is very minimalistic and also the function may seem oddly specific as it was just created to get a better catch on a math problem (PROMYS 2024 application set P3)
 
 import tkinter as tk
 from tkinter import ttk
